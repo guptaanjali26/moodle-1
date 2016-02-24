@@ -18,7 +18,7 @@ $CFG->dboptions = array (
 );
 
 $CFG->wwwroot   = 'http://linke.azurewebsites.net/';
-$CFG->dataroot  = '/var/www/moodledata';
+$CFG->dataroot  = 'http://linke.azurewebsites.net/moodledata';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
