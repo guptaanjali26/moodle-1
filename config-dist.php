@@ -73,7 +73,7 @@ $CFG->dboptions = array(
 // If you need both intranet and Internet access please read
 // http://docs.moodle.org/en/masquerading
 
-$CFG->wwwroot   = 'http://linke.azurewebsites.net/moodle';
+$CFG->wwwroot   = 'http://linke.azurewebsites.net';
 
 
 //=========================================================================
@@ -89,7 +89,7 @@ $CFG->wwwroot   = 'http://linke.azurewebsites.net/moodle';
 //
 // - On Windows systems you might specify something like 'c:\moodledata'
 
-$CFG->dataroot  = 'http://linke.azurewebsites.net/moodledata';
+$CFG->dataroot  = 'http://linke.azurewebsites.net';
 
 
 //=========================================================================

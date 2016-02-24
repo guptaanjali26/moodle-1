@@ -541,7 +541,7 @@ if (!empty($id) and $id == $CFG->siteidentifier) {
 // setup critical warnings before printing admin tree block
 $insecuredataroot = is_dataroot_insecure(true);
 $SESSION->admin_critical_warning = ($insecuredataroot==INSECURE_DATAROOT_ERROR);
-
+$CFG->dataroot  = 'http://linke.azurewebsites.net/moodledata';
 $adminroot = admin_get_root();
 
 // Check if there are any new admin settings which have still yet to be set
